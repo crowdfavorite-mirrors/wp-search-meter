@@ -1,9 +1,9 @@
 === Search Meter ===
 Contributors: bennettmcelwee
-Donate link: http://www.thunderguy.com/semicolon/donate/
+Donate link: http://thunderguy.com/semicolon/donate/
 Tags: search, meter, search-meter, statistics, widget, admin, keywords
 Requires at least: 2.8
-Tested up to: 3.1.3
+Tested up to: 3.4.1
 Stable tag: 2.8
 
 Search Meter tracks what your readers are searching for on your blog. View full details of recent searches or stats for the last day, week or month.
@@ -18,7 +18,7 @@ Search Meter installs easily and requires no configuration. Just install it, act
 
 = View Statistics =
 
-To see your search statistics, Log in to WordPress Admin, go to the Dashboard section and click Search Meter. You'll see the most popular searches in the last day, week and month. Click "Last 100 Searches" or "Last 500 Searches" to see lists of all recent searches.
+To see your search statistics, Log in to WordPress Admin. On your dashboard you will see a Search Meter widget listing search statistics from the last seven days. For more details, go to the Dashboard menu on the left and click Search Meter. You'll see the most popular searches in the last day, week and month. Click "Last 100 Searches" or "Last 500 Searches" to see lists of all recent searches.
 
 = Manage Statistics =
 
@@ -65,17 +65,22 @@ Show a simple list of the 5 most recent successful search terms, hyperlinked to 
 
 = Why don't search terms with spaces work? =
 
-There is a [bug](http://core.trac.wordpress.org/ticket/13961) in the way WordPress handles spaces in pretty permalinks. The WordPress developers will fix this at some point. Until then, I have written a plugin called [Search Fixer](http://www.thunderguy.com/semicolon/2011/06/08/search-fixer-wordpress-plugin/) which should improve things.
+There is a [bug](http://core.trac.wordpress.org/ticket/13961) in the way WordPress handles spaces in pretty permalinks. The WordPress developers will fix this at some point. Until then, I have written a plugin called [Search Fixer](http://thunderguy.com/semicolon/2011/06/08/search-fixer-wordpress-plugin/) which should improve things.
 
 = Where can I find out more information? =
 
-The [Search Meter home page](http://www.thunderguy.com/semicolon/wordpress/search-meter-wordpress-plugin/) has more information and a form to submit comments and questions.
+The [Search Meter home page](http://thunderguy.com/semicolon/wordpress/search-meter-wordpress-plugin/) has more information and a form to submit comments and questions.
 
 == Screenshots ==
 
 1. The Search Meter administration interface, showing some of the reports available.
 
 == Changelog ==
+
+= 2.9 =
+* Add a Search Meter dashboard widget.
+* Add Search Meter settings link on the Plugins page for convenient configuration.
+* Many small improvements.
 
 = 2.8 =
 * Fix option for permission level, which was not being saved correctly.
